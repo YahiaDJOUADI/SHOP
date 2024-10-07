@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <div class="max-w-screen-md mx-auto text-center  ">
+    <h1 class="font-extrabold text-3xl text-white tracking-widest">Real Madrid <span class="text-[#FEBF14]">FC</span></h1>
+  </div>
+  <body class=" bg-[url(images/rmd.jpg)] bg-cover ">
+    <div
+      class="max-w-screen-md mx-auto p-4 border rounded-lg bg-transparent text-center mt-14"
+    >
+      <h1 class="text-[#FEBF14] text-lg font-semibold">
+        Total quantity:
+        <span id="total-quantity" class="font-bold text-xl underline text-white">0</span>
+      </h1>
+      <h1 class="text-yellow-500 text-lg font-semibold">
+        Total price: <span>€</span>
+        <span id="total-price" class="font-bold text-xl underline text-white">0</span>
+      </h1>
+    </div>
+    <div class="max-w-screen-md mx-auto grid grid-cols-3 gap-8 mt-8">
+      <!-- Begin Card -->
+      <div class="border rounded-md px-3 py-1 relative group product-card bg-white cursor-pointer">
+        <img
+          src="https://cdn.sportshop.com/catalog/product/1500/1500/1/8/183718_1.jpg"
+          alt=""
+        />
+        <h3 class="text-sm text-slate-600 underline">Mens Home Authentic Shirt 24/25 White</h3>
+        <div class="flex justify-between">
+          <h4 class="font-bold text-xl underline">
+            <span class="product-price text-[#ED344F]">150</span> €
+          </h4>
+          <p class="text-lg font-semibold">
+            <button
+              class="bg-[#FEBF14] text-white py-0.5 px-3 rounded-full opacity-0 group-hover:opacity-100 transition minus-quantity-button"
+            >
+              -
+            </button>
+            <span class="quantity">0</span>
+          </p>
+        </div>
+        <button
+          class="bg-[#0051A0] text-white rounded-sm px-2 py-0.5 text-sm absolute top-1 left-1 opacity-0 group-hover:opacity-100 transition add-quantity-button"
+        >
+          Add to cart
+        </button>
+      </div>
+<!-- second card -->
+      <div class=" bg-white border rounded-md px-3 py-1 relative group product-card cursor-pointer">
+        <img
+          src="https://www.uksoccershop.com/images/re_1721696577_real-madrid-2024-2025-adidas-football-away-shirt.jpg"
+          alt=""
+        />
+        <h3 class="text-sm text-slate-600 underline">Mens Away Authentic Shirt 24/25 Orange</h3>
+        <div class="flex justify-between">
+          <h4 class="font-bold text-xl underline">
+            <span class="product-price text-[#ED344F]">150</span> €
+          </h4>
+          <p class="text-lg font-semibold">
+            <button
+              class="bg-[#FEBF14] text-white py-0.5 px-3 rounded-full opacity-0 group-hover:opacity-100 transition minus-quantity-button"
+            >
+              -
+            </button>
+            <span class="quantity">0</span>
+          </p>
+        </div>
+        <button
+          class="bg-[#0051A0] text-white rounded-sm px-2 py-0.5 text-sm absolute top-1 left-1 opacity-0 group-hover:opacity-100 transition add-quantity-button"
+        >
+          Add to cart
+        </button>
+      </div>
+<!-- third card -->
+      <div class="bg-white border rounded-md px-3 py-1 relative group product-card cursor-pointer">
+        <img
+          src="https://cdn.sportshop.com/catalog/product/1500/1500/1/8/183736_1.jpg"
+          alt=""
+        />
+        <h3 class="text-sm text-slate-600 underline">Mens Third Authentic Shirt 24/25 Charcoal</h3>
+        <div class="flex justify-between">
+          <h4 class="font-bold text-xl underline">
+            <span class="product-price text-[#ED344F]">150</span> €
+          </h4>
+          <p class="text-lg font-semibold">
+            <button
+              class="bg-[#FEBF14] text-white py-0.5 px-3 rounded-full opacity-0 group-hover:opacity-100 transition minus-quantity-button"
+            >
+              -
+            </button>
+            <span class="quantity">0</span>
+          </p>
+        </div>
+        <button
+          class="bg-[#0051A0] text-white rounded-sm px-2 py-0.5 text-sm absolute top-1 left-1 opacity-0 group-hover:opacity-100 transition add-quantity-button"
+        >
+          Add to cart
+        </button>
+      </div>
+
+      <!-- End Card -->
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
